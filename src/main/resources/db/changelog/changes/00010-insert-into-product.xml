@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                   https://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+
+    <changeSet id="insertIntoProductTable" author="Nazar">
+        <insert tableName="PRODUCT">
+            <column name="id" value="8"/>
+            <column name="name" value="phone"/>
+            <column name="sku_code" value="pho/sam/gre/7"/>
+            <column name="unit_price" value="10000"/>
+        </insert>
+        <insert tableName="PRODUCT">
+            <column name="id" value="9"/>
+            <column name="name" value="mobile phone"/>
+            <column name="sku_code" value="mob/len/gre/6"/>
+            <column name="unit_price" value="20000"/>
+        </insert>
+        <insert tableName="PRODUCT">
+            <column name="id" value="10"/>
+            <column name="name" value="watch"/>
+            <column name="sku_code" value="tes/sth/gre/15"/>
+            <column name="unit_price" value="15000"/>
+        </insert>
+        <insert tableName="PRODUCT">
+            <column name="id" value="11"/>
+            <column name="name" value="smart band"/>
+            <column name="sku_code" value="ban/sam/bla/4"/>
+            <column name="unit_price" value="5000"/>
+        </insert>
+        <insert tableName="PRODUCT">
+            <column name="id" value="12"/>
+            <column name="name" value="monitor"/>
+            <column name="sku_code" value="mon/asu/bla/21"/>
+            <column name="unit_price" value="16000"/>
+        </insert>
+        <insert tableName="PRODUCT">
+            <column name="id" value="13"/>
+            <column name="name" value="test"/>
+            <column name="sku_code" value="tes/sth/gre/15"/>
+            <column name="unit_price" value="1000000"/>
+        </insert>
+        <insert tableName="PRODUCT">
+            <column name="id" value="14"/>
+            <column name="name" value="test"/>
+            <column name="sku_code" value="tes/sth/gre/15"/>
+            <column name="unit_price" value="1000000"/>
+        </insert>
+    </changeSet>
+</databaseChangeLog>
